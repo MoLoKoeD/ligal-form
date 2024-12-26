@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ligal_form</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="form">
+    <h2 class="form_title section-title">
+      Договор на&nbsp;Программу раннего доступа
+    </h2>
+    <div class="form_container">
+      <div class="text-for-form">
+        <h3 class="text_title section-title">
+          Lorem Ipsum
+        </h3>
+        <p class="text_descr section-descr">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem
+        </p>
+        <p class="text_descr section-descr">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem
+        </p>
+        <p class="text_descr section-descr">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis quam dolore repudiandae magni! Error veritatis doloribus totam, quae, exercitationem, dolor ullam magnam obcaecati omnis mollitia quisquam provident commodi veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, nesciunt laborum, fugit non repudiandae debitis tenetur voluptatem vitae aliquid nobis corporis, et voluptates voluptate iure consectetur impedit aspernatur consequuntur. Voluptatem!Lorem
+        </p>
+      </div>
+      <div class="form_content">
+        <form action="" method="post" id="form" target="_blank">
+          <ul class="list-reset form_list">
+            <li class="form_item">
+              <label class="form_label" for="phone">Телефон</label>
+              <input class="form_input" type="tel" name="phone" placeholder="+7 (916) _ _ _ &ndash; _ _ &ndash; _ _" id="phone" maxlength="25" required pattern="\+?[0-9\s\-\(\)]+">
+            </li>
+            <li class="form_item">
+              <label class="form_label" for="name">ФИО</label>
+              <input class="form_input" type="text" name="name" placeholder="Иванов Иван Ианович" id="name" min="10" maxlength="100" required>
+            </li>
+            <div class="block_date">
+              <li class="form_item block_date-item">
+                <label class="form_label" for="age">Дата рождения</label>
+                <input class="form_input" type="date" name="age" placeholder="дд.мм.гггг" id="age" required>
+              </li>
+              <li class="form_item block_date-item">
+                <label class="form_label" for="pasport-series">Серия и номер паспорта</label>
+                <input class="form_input" type="number" name="pasport-series" placeholder="2111 567834" maxlength="12" id="pasport-series" required>
+              </li>
+              <li class="form_item block_date-item">
+                <label class="form_label" for="pasport-place">Место выдачи</label>
+                <input class="form_input" type="text" name="pasport-place" placeholder="УФМС по Московской обл." id="pasport-place" max="125" required>
+              </li>
+              <li class="form_item block_date-item">
+                <label class="form_label" for="pasport-date">Дата выдачи</label>
+                <input class="form_input" type="date" name="pasport-date" placeholder="дд.мм.гггг" id="pasport-date" required>
+              </li>
+            </div>
+            <li class="form_item">
+              <label class="form_label" for="pasport-home">Место жительства по паспорту</label>
+              <input class="form_input" type="text" name="pasport-home" placeholder="г.Москва, ул. Зеленый пр-кт, 63, кв.15." id="pasport-home" min="8" max="100" required>
+            </li>
+            <li class="form_item form_item-img">
+              <label class="form_label" for="avatar">Фото с документом в анфас</label>
+              <label class="label-for-img image-container" for="avatar">
+                <img id="img" class="img-for-form" src="./img/Photo Fields.svg" alt="avatar">
+                <input class="input-for-img" type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required/>
+              </label>
+            </li>
+          </ul>
+          <div class="form_button">
+            <button type="submit" class="btn btn-reset">
+              Принять
+            </button>
+            <button id="cliner" type="reset" class="btn btn-reset">
+              Отклонить
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/bouncer/dist/bouncer.polyfills.min.js"></script>
+  <script>
+    const validate = new Bouncer('#form', {messages: {
+      missingValue: {
+        default: 'Ошибка'
+      },
+      patternMismatch: {
+        email: 'Ошибка',
+        number: 'Ошибка',
+        date: 'Ошибка',
+        default: 'Ошибка'
+      },
+      outOfRange: {
+        over: 'Ошибка',
+        under: 'Ошибка'
+      },
+      wrongLength: {
+        over: 'Ошибка',
+        under: 'Ошибка'
+      }
+	  }});
+
+    const image = document.getElementById('img'),
+      cliner = document.getElementById('cliner'),
+      loader = document.getElementById('loader'),
+      input = document.getElementById('avatar');
+      input.addEventListener("change", () => {
+        image.src = URL.createObjectURL(input.files[0]);
+      });
+      cliner.addEventListener('click', () => {
+        image.setAttribute('src', './img/Photo Fields.svg');
+    });
+  </script>
+</body>
+</html>
